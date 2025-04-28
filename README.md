@@ -83,8 +83,19 @@ buff[n]='\0';
 printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 }
 
-named pipe
 
+```
+
+
+
+
+## OUTPUT
+![image](https://github.com/user-attachments/assets/95ddc007-3bac-4936-ac8b-15adee777c8a)
+
+## C Program that illustrate communication between two process using named pipes using Linux API system calls
+
+named pipe
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -172,15 +183,6 @@ void client() {
     close(fifo_fd);
 }
 ```
-
-
-
-
-## OUTPUT
-![image](https://github.com/user-attachments/assets/95ddc007-3bac-4936-ac8b-15adee777c8a)
-
-## C Program that illustrate communication between two process using named pipes using Linux API system calls
-
 
 
 
