@@ -171,11 +171,6 @@ void client() {
 
     close(fifo_fd);
 }
-
-
-
-
-
 ```
 
 
